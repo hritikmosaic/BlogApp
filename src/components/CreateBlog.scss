@@ -1,0 +1,16 @@
+.createBlog{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    input{
+        border: 0;
+    }
+    button{
+        margin:20px 0;
+        padding: 6px 0;
+        border: 0;
+        font-size: large;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,44 @@
+@import url('../index.scss');
+@mixin flexEvenly {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  $base-color: #e061a1;
+  $link-color:#fff;
+  $link-hover-color:rgba(255,255,255,0.78);
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    border-bottom: 1px solid rgba(0,0,0,0.4);
+    padding-bottom: 4px;
+    margin:20px auto;
+    font-family: 'sans serif';
+    .title{
+        font-size: 24px;
+        font-weight: 600;
+        color: $base-color;
+        padding: 0;
+        margin: 0;
+    }
+    .links{
+        width: 50%;
+        @include flexEvenly;
+        font-weight: 500;
+        font-size: 18px;
+        .link{
+            text-decoration: none;
+            color: $base-color;
+            transition: all 0.5s ease-in-out; 
+            &:hover{
+                border-bottom:1px solid $base-color;
+            }
+        }
+
+    }
+    .active{
+        border-bottom: 1px solid $base-color;
+    }
+}

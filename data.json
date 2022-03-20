@@ -1,0 +1,76 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "First blog",
+      "author": "typicode",
+      "date": "19 March,2022"
+    },
+    {
+      "id": 2,
+      "title": "Second blog",
+      "author": "typicode",
+      "date": "19 March,2022"
+    },
+    {
+      "id": 3,
+      "title": "Third blog",
+      "author": "typicode",
+      "date": "19 March,2022"
+    },
+    {
+      "id": 1,
+      "title": "First blog",
+      "author": "typicode",
+      "date": "19 March,2022"
+    },
+    {
+      "id": 2,
+      "title": "Second blog",
+      "author": "typicode",
+      "date": "19 March,2022"
+    },
+    {
+      "id": 3,
+      "title": "Third blog",
+      "author": "typicode",
+      "date": "19 March,2022"
+    },
+    {
+      "id": 1,
+      "title": "First blog",
+      "author": "typicode",
+      "date": "19 March,2022"
+    },
+    {
+      "id": 2,
+      "title": "Second blog",
+      "author": "typicode",
+      "date": "19 March,2022"
+    },
+    {
+      "id": 3,
+      "title": "Third blog",
+      "author": "typicode",
+      "date": "19 March,2022"
+    },
+    {
+      "title": "Fred",
+      "body": "Blair",
+      "id": 7
+    },
+    {
+      "title": "Fred",
+      "body": "Blair",
+      "id": 8
+    },
+    {
+      "title": "Nothing is permanent.",
+      "body": "<p>Bro , apne upar focus karle .... life banale please... boht pashtaayega&nbsp;</p>",
+      "email": "sharmahritik2002@gmail.com",
+      "author": "Hritik Sharma",
+      "date": "0 2 2022",
+      "id": 9
+    }
+  ]
+}
